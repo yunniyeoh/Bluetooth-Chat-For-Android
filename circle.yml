@@ -1,6 +1,7 @@
 machine:
    environment:
-     ANDROID_HOME: /usr/local/android-sdk-linux
+     ANDROID_HOME: /Users/Yumiko/AppData/Local/Android/sdk
+
  
 dependencies:
   pre:
