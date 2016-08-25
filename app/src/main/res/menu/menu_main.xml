@@ -1,0 +1,28 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_devices"
+        android:title="@string/action_devices"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/device"
+        />
+
+    <item
+        android:id="@+id/action_distance"
+        android:title="@string/action_distance"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/distance"
+    />
+
+    <item
+        android:id="@+id/action_connected"
+        android:icon="@drawable/connected"
+        android:title="connected"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

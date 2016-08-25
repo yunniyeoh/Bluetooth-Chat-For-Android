@@ -1,0 +1,37 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Bluetooth Chat</string>
+
+    <!--Menu Item-->
+    <string name="action_devices">Devices</string>
+    <string name="action_distance">Distance</string>
+
+    <!--Device List Activity-->
+    <string name="title_connecting">Connecting...</string>
+    <string name="title_connected_to">Connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">Not connected</string>
+    <string name="title_paired_devices">Paired devices</string>
+    <string name="title_other_devices">Available devices</string>
+    <string name="none_paired">No paired devices</string>
+    <string name="scanning">Scanning</string>
+    <string name="select_device">Select device to connect</string>
+    <string name="none_found">No devices found</string>
+    <string name="button_scan">Scan Devices</string>
+
+    <!--Distance Activity-->
+    <string name="title_distance">Distance</string>
+    <string name="getDistance">Get Distance</string>
+    <string name="getEnvironment">Closed Environment</string>
+
+    <!--Chat Activity-->
+    <string name="title_chat">Device name display here</string>
+    <string name="send">Send</string>
+    <string name="connect">Connect a device</string>
+
+    <!--Connected Activity-->
+    <string name="title_activity_connected">Connected Device</string>
+    <string name="not_available">No connnected device</string>
+    <string name="reset_conn">Reset Connection</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7688A9"
+    tools:context="com.example.utar.myapplication.ConnectedActivity">
+
+    <TextView
+        android:id="@+id/no_connected_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:text="@string/not_available"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <ListView
+        android:paddingTop="10dp"
+        android:id="@+id/connected_devices"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_conn"
+        android:layout_alignParentBottom="true"
+        />
+    </RelativeLayout>
+</LinearLayout>
