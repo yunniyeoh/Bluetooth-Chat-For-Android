@@ -1,3 +1,7 @@
+general:
+    artifacts:
+        - /desktop/bluetooth-chat-for-android/app/build/outputs/apk/
+
 machine:
    environment:
      ANDROID_HOME: /Users/Yumiko/AppData/Local/Android/sdk
